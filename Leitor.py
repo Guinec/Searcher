@@ -7,7 +7,7 @@ p = Path(Pathing)
 Xml = list(p.glob('**/livros.xml'))
 
 print(Xml)
-
+#resposta
 for Mob in Xml:
 
 	Arquivo = et.parse(Mob)
